@@ -1,0 +1,49 @@
+* {
+    background-color: #F1EEF6;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.menu-padre {
+    background-color: #F1EEF6;
+    overflow: hidden;
+}
+
+.menu-padre a { 
+    float: left;
+    text-decoration: none;
+    color: #0F0625;
+    margin: 10px;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+.menu-padre a:hover {
+    background-color: #0F0625;
+    color: #fff;
+}
+
+.menu-padre a.activa{
+    background-color: #0F0625;
+    color: #fff;
+}
+
+.logo{
+    height: 55px;
+}
+
+.menu-padre a.no-menu {
+    background: none !important;
+}
+
+.menu-padre a.no-menu:hover {
+    background: none !important;
+}
+
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
